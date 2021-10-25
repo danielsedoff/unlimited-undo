@@ -1,2 +1,5 @@
 # unlimited-undo
-Unlimited Undo function for web page elements
+
+This JavaScript code provides unlimited Undo for web page elements.
+
+
