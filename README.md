@@ -1,8 +1,8 @@
 # unlimited-undo
 
-This JavaScript code provides unlimited Undo for web page elements.
+This JavaScript code provides unlimited Undo for editable DOM elements.
 
-If you attach this code to an input element such as `textarea`, `input`, etc, it will allow as many undo operations as the client's RAM will allow.
+If you attach this code to an editable element such as `textarea`, `input`, etc, it will allow as many undo operations as technically possible.
 
 
 USAGE:
@@ -14,4 +14,6 @@ USAGE:
 </input>
 ```
 
-You can change the ID or element type freely since the script looks for the `unlimitedUndo.uu()` function call at window startup.
+You can change the element ID (`textarea1`) or element type (`textarea`) freely since the script looks for the `unlimitedUndo.uu()` function call at window startup.
+
+You can have more than one unlimited-undo field in the same window.
